@@ -3,6 +3,7 @@
 ## Project setup
 ```
 1. Run: vue ui - Opens the vue user interface on local host, create new project.
+2. Run: vue add eslint - Add linter error checking for project.
 ```
 
 ### Compiles and hot-reloads for development
@@ -25,5 +26,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Dependencies and Packages
 ```
-
+- Vue (V2)
+- eslint
 ```
