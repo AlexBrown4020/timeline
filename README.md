@@ -10,6 +10,7 @@
 6. Run: npm install pg --save - Install postgres as our database.
 7. Run: npm install knex --save - Install knex for communicating between our database and backend.
 8. Run: npm install express dotenv --save - Install express and dotenv for handling .env files and application framework for node.js.
+9. Run: knex init - Initialize a knexfile into your project.
 ```
 
 ### Compiles and hot-reloads for development
