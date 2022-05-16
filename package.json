@@ -12,6 +12,7 @@
     "apollo:start": "vue-cli-service apollo:start"
   },
   "dependencies": {
+    "@vue/apollo-composable": "^4.0.0-alpha.17",
     "core-js": "^3.8.3",
     "graphql": "^16.5.0",
     "graphql-type-json": "^0.2.1",
