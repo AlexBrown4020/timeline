@@ -4,6 +4,7 @@
 ```
 1. Run: vue ui - Opens the vue user interface on local host, create new project.
 2. Run: vue add eslint - Add linter error checking for project.
+3. Run: npm add apollo - Ensure you have an apollo account when for installation
 ```
 
 ### Compiles and hot-reloads for development
@@ -28,4 +29,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ```
 - Vue (V2)
 - eslint
+- apollo server
 ```
