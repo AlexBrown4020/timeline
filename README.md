@@ -9,6 +9,7 @@
 5. Test that apollo client can listen for the inbuilt queries (e.g. hello) by writing in the apollo terminal: query Query { hello(name:"Your name here")} If it can respond with your name, it is connected.
 6. Run: npm install pg --save - Install postgres as our database.
 7. Run: npm install knex --save - Install knex for communicating between our database and backend.
+8. Run: npm install express dotenv --save - Install express and dotenv for handling .env files and application framework for node.js.
 ```
 
 ### Compiles and hot-reloads for development
