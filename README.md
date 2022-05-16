@@ -11,6 +11,8 @@
 7. Run: npm install knex --save - Install knex for communicating between our database and backend.
 8. Run: npm install express dotenv --save - Install express and dotenv for handling .env files and application framework for node.js.
 9. Run: knex init - Initialize a knexfile into your project.
+10. Run: knex migrate:up / knex migrate:latest - populate database with tables.
+11. Run: knex seed:run - populate the tables with sample data.
 ```
 
 ### Compiles and hot-reloads for development
@@ -39,4 +41,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - GraphQL
 - Postgres
 - Knex
+- dotenv
+- express
 ```
