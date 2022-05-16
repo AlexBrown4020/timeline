@@ -16,8 +16,10 @@
     "core-js": "^3.8.3",
     "graphql": "^16.5.0",
     "graphql-type-json": "^0.2.1",
+    "knex": "^2.0.0",
     "lowdb": "^1.0.0",
     "mkdirp": "^0.5.1",
+    "pg": "^8.7.3",
     "shortid": "^2.2.8",
     "vue": "^2.6.14",
     "vue-apollo": "^3.0.0-beta.11"
