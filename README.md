@@ -19,7 +19,11 @@
 15.Run: heroku git:remote -a <ProjectName> - Use this if you cannot run migrations to heroku.
 16.Run: npm install --save morgan
 17:Run: npm install --save path
-```herok
+
+git push heroku master
+heroku logs
+
+```heroku
 
 f057946cc57d2cc6f929cdf84e3218d1b90c6bcf324d0bd7bd35e04e8230f0d0c
 
