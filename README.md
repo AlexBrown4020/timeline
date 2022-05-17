@@ -15,6 +15,7 @@
 11. Run: knex seed:run - populate the tables with sample data.
 12. Require Heroku, depending on the system you are running: ("https://devcenter.heroku.com/articles/heroku-cli#install-the-heroku-cli")
 13. Run: psql --host=yourHostName --port=portNumber --username=yourUserName --password=yourPassword --dbname=yourDbName - Ensure you check heroku's settings for your database credentials.  The order of the credentials is important.  You will be prompted for a password, use herokus database password.
+14. Connect directly to your timeline project database by copying the Heroku CLI into your terminal, it should look something like this: heroku pg:psql postgresql-infinite-***** --app <ProjectName>
 ```herok
 
 ### Compiles and hot-reloads for development
