@@ -16,6 +16,7 @@
 12. Require Heroku, depending on the system you are running: ("https://devcenter.heroku.com/articles/heroku-cli#install-the-heroku-cli")
 13. Run: psql --host=yourHostName --port=portNumber --username=yourUserName --password=yourPassword --dbname=yourDbName - Ensure you check heroku's settings for your database credentials.  The order of the credentials is important.  You will be prompted for a password, use herokus database password.
 14. Open a new terminal, connect directly to your timeline project database by copying the Heroku CLI into your terminal, it should look something like this: heroku pg:psql postgresql-infinite-***** --app <ProjectName>
+15.Run: heroku git:remote -a <ProjectName> - Use this if you cannot run migrations to heroku.
 ```herok
 
 f057946cc57d2cc6f929cdf84e3218d1b90c6bcf324d0bd7bd35e04e8230f0d0c
