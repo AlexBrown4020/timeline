@@ -13,7 +13,9 @@
 9. Run: knex init - Initialize a knexfile into your project.
 10. Run: knex migrate:up / knex migrate:latest - populate database with tables.
 11. Run: knex seed:run - populate the tables with sample data.
-```
+12. Require Heroku, depending on the system you are running: ("https://devcenter.heroku.com/articles/heroku-cli#install-the-heroku-cli")
+13. Run: psql --host=yourHostName --port=portNumber --username=yourUserName --password=yourPassword --dbname=yourDbName - Ensure you check heroku's settings for your database credentials.  The order of the credentials is important.  You will be prompted for a password, use herokus database password.
+```herok
 
 ### Compiles and hot-reloads for development
 ```
