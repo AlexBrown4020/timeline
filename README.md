@@ -19,6 +19,7 @@
 15.Run: heroku git:remote -a <ProjectName> - Use this if you cannot run migrations to heroku.
 16.Run: npm install --save morgan
 17:Run: npm install --save path
+18.Run: npm install --save apollo-boost
 
 git push heroku master
 heroku logs
