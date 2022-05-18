@@ -1,14 +1,9 @@
 // Update with your config settings.
-require('dotenv').config(
-  {
-    path: './.env.local'
-  }
-);
+require('dotenv').config({path: './.env.local'});
 /**
  * @type { Object.<string, import("knex").Knex.Config> }
  */
  module.exports = {
-  development: {
     client: "pg",
     connection: process.env.DB_URL || 
       {
@@ -25,5 +20,4 @@ require('dotenv').config(
     seeds: {
       directory: "./data/seeds",
     },
-  }
 };
