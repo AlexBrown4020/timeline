@@ -22,6 +22,7 @@
 18.Run: npm install --save apollo-boost
 19.Run: npm install cache-loader
 20.Push your commits to github, then run: git push heroku master.
+21.Run: heroku run knex migrate:latest
 
 git commit -a -m "message"
 git push heroku master
