@@ -1,18 +1,13 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <ApolloExample msg="Welcome to Your Vue.js App"/>
+    <h1>Welcome to Timeline</h1>
   </div>
 </template>
 
 <script>
-import ApolloExample from './components/ApolloExample.vue'
 
 export default {
   name: 'App',
-  components: {
-    ApolloExample
-  }
 }
 </script>
 
