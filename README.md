@@ -23,7 +23,7 @@
 19.Run: npm install cache-loader
 20.Push your commits to github, then run: git push heroku master.
 
-
+git commit -a -m "message"
 git push heroku master
 heroku logs
 heroku run migrate:latest --app <HerokuAppName>
