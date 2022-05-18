@@ -28,6 +28,9 @@ git commit -a -m "message"
 git push heroku master
 heroku logs
 heroku run migrate:latest --app <HerokuAppName>
+
+heroku config:set NPM_CONFIG_PRODUCTION=false YARN_PRODUCTION=false 
+@vue/cli-service - to package.json
 # \
 ```heroku
 
