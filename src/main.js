@@ -6,19 +6,20 @@ import ApolloClient from 'apollo-boost';
 Vue.config.productionTip = false;
 
 //HTTP connection to the API
-const httpLink = createHttpLink({
+// const httpLink = createHttpLink({
   //Create absolute URL here
-  uri:'http://localhost:4000/graphql'
-});
+  // uri: 'http://localhost:9000',
+//   uri:'/graphql'
+// });
 
 //Cache Implementation
-const cache = new InMemoryCache();
+// const cache = new InMemoryCache();
 
 //apollo client
 
 const apolloClient = new ApolloClient({
-  link: httpLink,
-  cache,
+  url: '/graphql',
+  // cache,
 });
 
 Vue.use(VueApollo);

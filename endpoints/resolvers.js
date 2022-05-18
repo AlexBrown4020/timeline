@@ -1,4 +1,4 @@
-const db = require('./server/knex');
+const db = require('../server/knex');
 
 module.exports = {
     Query: {
