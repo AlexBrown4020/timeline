@@ -21,10 +21,13 @@
 17:Run: npm install --save path
 18.Run: npm install --save apollo-boost
 19.Run: npm install cache-loader
+20.Push your commits to github, then run: git push heroku master.
+
 
 git push heroku master
 heroku logs
-
+heroku run migrate:latest --app <HerokuAppName>
+# \
 ```heroku
 
 f057946cc57d2cc6f929cdf84e3218d1b90c6bcf324d0bd7bd35e04e8230f0d0c
