@@ -21,3 +21,11 @@ require('dotenv').config({path: './.env.local'});
       directory: "./data/seeds",
     },
 };
+
+// migrations: {
+//   tableName: "knex_migrations",
+//   directory: "./db/migrations/",
+// },
+// seeds: {
+//   directory: "./db/seeds",
+// },
