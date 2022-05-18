@@ -3,6 +3,8 @@ import App from './App.vue';
 import VueApollo from 'vue-apollo'
 import ApolloClient from 'apollo-boost';
 
+Vue.config.productionTip = false;
+
 //HTTP connection to the API
 const httpLink = createHttpLink({
   //Create absolute URL here

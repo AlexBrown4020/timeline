@@ -2,8 +2,8 @@ require('dotenv').config();
 const db = require('./knex');
 const { ApolloServer } = require('apollo-server-express');
 // const { ApolloGateway } = require('@apollo/gateway');
-const typeDefs = require('./endpoints/schema');
-const resolvers = require('./endpoints/resolvers');
+const typeDefs = require('../endpoints/schema');
+const resolvers = require('../endpoints/resolvers');
 
 // const gateway = new ApolloGateway();
 
