@@ -12,7 +12,7 @@
     "apollo": "vue-cli-service apollo:dev --generate-schema",
     "apollo:schema:generate": "vue-cli-service apollo:schema:generate",
     "apollo:schema:publish": "vue-cli-service apollo:schema:publish",
-    "start": "node server"
+    "start": "vue-cli-service apollo:start"
   },
   "dependencies": {
     "@apollo/gateway": "^2.0.2",
