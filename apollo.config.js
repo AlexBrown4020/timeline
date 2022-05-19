@@ -12,7 +12,9 @@ module.exports = {
     name:'hello-graphql',
     url:'http://localhost:4000/graphql',
     service: env.VUE_APP_APOLLO_ENGINE_SERVICE,
-    includes: ['src/**/*.{js,jsx,ts,tsx,vue,gql}']
+    includes: ['src/**/*.{js,jsx,ts,tsx,vue,gql}'],
+    introspection: true,
+    playground: true
   },
   service: {
     name: env.VUE_APP_APOLLO_ENGINE_SERVICE,
