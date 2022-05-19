@@ -80,5 +80,6 @@
   "bugs": {
     "url": "https://github.com/AlexBrown4020/timeline/issues"
   },
-  "homepage": "https://github.com/AlexBrown4020/timeline#readme"
+  "homepage": "https://github.com/AlexBrown4020/timeline#readme",
+  "proxy": "http://localhost:4000"
 }
