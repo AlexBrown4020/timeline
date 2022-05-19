@@ -1,7 +1,6 @@
 <template>
   <div class="event">
-      <label for="events"> Title</label>
-      
+    <div v-for="event in events" :key="event.id"> {{ movie.id }} </div>
   </div>
 </template>
 
@@ -9,6 +8,18 @@
 
 export default {
   name: 'EventsCard',
+  data() {
+    return {
+      events: [
+        {
+          id: 1,
+          title: "First Day at Code Chrysalis",
+          date: "2022-02-16",
+          description: "Students had an introduction lesson"
+        }
+      ]
+    }
+  }
 }
 </script>
 
