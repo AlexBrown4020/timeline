@@ -1,6 +1,6 @@
 <template>
   <div class="event">
-    <div v-for="event in events" :key="event.id"> {{ movie.id }} </div>
+    <div v-for="event in events" :key="event.id"> {{ event.title }} </div>
   </div>
 </template>
 
@@ -16,6 +16,12 @@ export default {
           title: "First Day at Code Chrysalis",
           date: "2022-02-16",
           description: "Students had an introduction lesson"
+        },
+        {
+          id: 2,
+          title: "Laundry Week",
+          date: "2022-05-18",
+          description: "Students have a week to catch up or relax"
         }
       ]
     }
