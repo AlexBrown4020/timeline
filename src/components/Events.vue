@@ -1,6 +1,6 @@
 <template>
   <div class="event">
-    <div v-for="event in events" :key="event.id"> {{ event.title }} </div>
+    <div v-for="event in events" :key="event.id"> {{ event }} </div>
   </div>
 </template>
 
@@ -22,7 +22,19 @@ export default {
           title: "Laundry Week",
           date: "2022-05-18",
           description: "Students have a week to catch up or relax"
-        }
+        },
+        {
+          id: 3,
+          title: "The Great Purge",
+          date: "2020-01-1",
+          description: "You better believe you're getting purged!"
+        },
+                {
+          id: 4,
+          title: "Ants",
+          date: "2022-10-10",
+          description: "There are so many ants right, like, way too many."
+        },
       ]
     }
   }
