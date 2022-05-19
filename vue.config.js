@@ -1,11 +1,8 @@
-const { defineConfig } = require('@vue/cli-service')
-module.exports = defineConfig({
-  transpileDependencies: true,
-
-  pluginOptions: {
-    apollo: {
-      enableMocks: false,
-      enableEngine: false
-    }
-  }
-})
+module.exports = {
+  lintOnSave: false,
+  devServer: {
+    proxy: {
+      "/": { target: "http://127.0.0.1:9000" },
+    },
+  },
+};
