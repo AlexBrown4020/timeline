@@ -1,6 +1,6 @@
 <template>
   <div class="event">
-    <div v-for="event in events" :key="event.id"> {{ event }} </div>
+    <event-list v-for="event in events" :key="event.id" :event="event"></event-list>
   </div>
 </template>
 
