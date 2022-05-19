@@ -1,9 +1,10 @@
 <template>
   <div class="event">
-    <event-list v-for="event in events" :key="event.id" :event="event"></event-list>
-    <h2>Title: {{ event.title }} </h2>
-    <h2>Date: {{ event.date }} </h2>
-    <p> {{ event.description }} </p>
+    <event-list v-for="event in events" :key="event.id" :event="event">
+     <h2>Title: {{ event.title }} </h2>
+     <h2>Date: {{ event.date }} </h2>
+     <p> {{ event.description }} </p>
+    </event-list>
   </div>
 </template>
 
