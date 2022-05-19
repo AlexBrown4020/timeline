@@ -1,9 +1,9 @@
 
 <template>
   <div id="app">
+    <AddEvent>
     <h1>Welcome to Timeline</h1>
     <h2>Hello</h2>
-    <AddEvent>
     <Events>
   </div>
 </template>
